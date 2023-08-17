@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center;
+    padding-top: 4rem;
+    cursor: pointer;
+}
+input{
+    border: none;
+    outline: none;
+}
+.password{
+    border: 1px solid black;
+    /* margin-bottom: 1.5rem; */
+    border-radius: 7px;
+    padding-left: 6rem;
+}
+i{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    /* padding-left: 20px; */
+}
+label{
+    font-size: larger;
+}
+button{
+    background-color: black;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    margin: auto;
+    display: flex;
+    border: none;
+    cursor: pointer;
+}
+.sign{
+    padding-top: 3rem;
+}
+button:hover{
+    scale: 1.5;
+}
